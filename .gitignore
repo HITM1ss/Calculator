@@ -1,0 +1,25 @@
+# 编译生成的文件
+core/core.dll
+core/libcore.a
+
+# Python 缓存与虚拟环境
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+env/
+*.log
+
+# PyInstaller 打包产物
+build/
+dist/
+
+# 编辑器配置（如果不需要分享的话可以忽略）
+.vscode/
+*.swp
+*.swo
+
+# 系统文件
+Thumbs.db
+.DS_Store
